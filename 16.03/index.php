@@ -15,9 +15,19 @@
 
     # ; należy dawać na koniec każdej linii
 
-    
     echo "Hello world!";
     
+    $myName = "Janek"; // $ oznacza że jest to zmienna
+    $numberA = "20";
+    $numberB = 50;
+
+    $result = $numberA + $numberB; // + tylko dodawanie arytmetyczne
+    $result_text = $numberA . $numberB; // . to łączenie znaków
+
+    echo "<div>Wynik dodawania to $result</div>"; // 1
+    echo "<div style='color: red'>Wynik dodawania to {$result}</div>"; // 2 PREFEROWANY ++
+    echo "<div>Wynik dodawania to " . $result . "</div>"; // 3
+
     ?>
 </body>
 </html>
