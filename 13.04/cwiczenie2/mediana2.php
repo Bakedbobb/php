@@ -17,11 +17,12 @@
 
             for ($i = 0; $i < $ilosc_liczb; $i++)
             {
-                $wyniki[] = rand($min, $max);
+                $wyniki = rand($min, $max);
+                
             }
         }
         
-        $wyniki = sort($wyniki);
+        $wyniki[] = sort($wyniki);
         print_r($wyniki);
     ?>
 
