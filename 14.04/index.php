@@ -86,6 +86,6 @@
         echo "Suma tablicy: {$suma_calosci}<br>"; 
         echo "Srednia tablicy: {$srednia_calosci}<br>";
     ?>
-    
+    # gh
 </body>
 </html>
