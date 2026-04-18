@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php                   // <? sie nie używa         http://localhost/MateuszBednarczyk/16.03/
+    <?php                   // <? sie nie używa         
 
     # php jest server side
     # php to jezyk skryptowy - nie kompiluje sie
