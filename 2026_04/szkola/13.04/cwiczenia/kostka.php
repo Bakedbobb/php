@@ -21,8 +21,7 @@
         
         for ($i = 1; $i <= 6; $i++)
         {
-            echo "{$i} - {$wyniki[$i-1]} razy<br>
-            ";
+            echo "{$i} - {$wyniki[$i-1]} razy<br>";
         }
     ?>
 </body>
