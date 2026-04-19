@@ -27,9 +27,9 @@
         {
             foreach($one_product as $property)
             {
-                echo "{$property ";
+                echo "{$property}";
             }
-            echo "<br>"
+            echo "<br>";
         }
     ?>  
 </body>

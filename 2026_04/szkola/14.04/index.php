@@ -10,8 +10,6 @@
         $array = []; // 10 wierszy x 5 kolumn
         $suma_calosci = 0;
         $srednia_wierszy = 0;
-        
-
 
         for($i = 0; $i < 10; $i++)
         {
@@ -61,8 +59,7 @@
                 {
                     $max = $array[$i][$k];
                 }
-                        
-                
+
             }
             echo "Srednia wiersza {$i}: {$srednia_wiersza}<br>";
             echo "Suma wiersza {$i}: {$suma_wiersza}<br>";
@@ -86,6 +83,6 @@
         echo "Suma tablicy: {$suma_calosci}<br>"; 
         echo "Srednia tablicy: {$srednia_calosci}<br>";
     ?>
-    # gh
+
 </body>
 </html>
