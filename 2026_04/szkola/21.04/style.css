@@ -1,0 +1,96 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F7F6;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#div_srednia, #div_zagrozenia{
+    border-radius: 10px;
+    height: 150px;
+    width: 30%;
+    background-color: aqua;
+    background-color: white;
+    text-align: center;
+    
+    b {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        color: rgb(121, 121, 121);
+        font-weight: none;
+        padding-top: 15px;
+    }
+}
+
+#div_srednia {
+    border-top: 5px solid blue;
+    margin-right: 20px;
+}
+
+#div_zagrozenia {
+    border-top: 5px solid red;
+}
+/* 3498DB */
+
+#content2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+table th {
+    background-color: #3498DB;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#tabela {
+    border-radius: 15px;
+    width: 30%;
+    
+}
+
+.ocena_span {
+    border-radius: 300%;
+    background-color: lightgreen;
+    color: green;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 25%;
+    position: relative;
+}
